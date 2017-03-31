@@ -1,0 +1,29 @@
+.page-container {
+	.container {
+		@media(min-width:1200px) {
+			width: 1054px;
+		}
+		
+	}
+	.what-we-are {
+		.section-text {
+			font-size: 1.8rem;
+			text-align: center;
+		}
+		.company-information {
+			text-align: center
+		}
+		.we-are-img {
+			background-color: grey;
+			height: 130px;
+			margin-bottom: 20px;
+		}
+		.article-title {
+			font-size: 2rem;
+			font-weight: 600;
+		}
+		.article-text {
+			font-size: 1.3rem;
+		}
+	}
+}
