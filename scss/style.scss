@@ -26,7 +26,7 @@
     	}
 	}
 	.what-we-are {
-		padding-bottom: 85px;
+		
 		border-bottom: solid 1px #e1e1e1;
 		&::before {
 			content: "";
@@ -46,6 +46,7 @@
 		.company-information {
 			text-align: center;
 			position: relative;
+			padding-bottom: 85px;
 			.icon-wrapper {
 				width: 95px;
 				height: 95px;
@@ -71,8 +72,10 @@
 		.we-are-img {
 			background-color: grey;
 			height: 130px;
+			width: 320px;
 			overflow: hidden;
 			border-radius: 5px 5px 0 0;
+			display: inline-block;
 			img {
 				width: 100%;
 				height: auto;
@@ -81,6 +84,8 @@
 		.text-wrapper {
 			border-radius: 0 0 5px 5px;
 			border: solid 1px #e1e1e1;
+			width: 320px;
+			margin: 0 auto;
 		}
 		.article-title {
 			font-size: 2rem;
