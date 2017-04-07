@@ -11,6 +11,7 @@
 	}
 	.navegation {
 		padding-top: 40px;
+		margin-bottom: 20px;
 		.navbar {
 			height: 60px;
 			background-color: transparent;
@@ -187,6 +188,7 @@
 			position: absolute;
 			top: -25px;
 			left: 50%;
+			transform: translateX(-50%);
 			@media (max-width: 768px) {
 				background-color: #ffffff;
 				padding: 10px;
@@ -294,6 +296,7 @@
 			position: absolute;
 			top: -25px;
 			left: 50%;
+			transform: translateX(-50%);
 			@media (max-width: 768px) {
 				background-color: #ffffff;
 				padding: 10px;
@@ -371,6 +374,7 @@
 			position: absolute;
 			top: -25px;
 			left: 50%;
+			transform: translateX(-50%);
 			@media (max-width: 768px) {
 				background-color: #ffffff;
 				padding: 10px;
