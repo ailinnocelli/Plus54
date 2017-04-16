@@ -1,5 +1,5 @@
 @import "variables.scss";
-
+@import "fonts.scss";
 
 .page-container {
 	margin-bottom: 1000px; // Sacar esta línea, es sólo para ver el footer
@@ -12,6 +12,7 @@
 		}
 	}
 	&.contact {
+		//font-family: opensans-bold;
 		.navegation {
 			height: 365px;
 			padding-top: 20px;
@@ -56,6 +57,17 @@
 		.map {
 			width: 100%;
 			height: 340px;
+			position: relative;
+			.map-cover {
+				width: 100vw;
+				height: 340px;
+				display: inline-block;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+			}
 		}
 		.our-contact {
 			padding-bottom: 45px;
@@ -113,6 +125,16 @@
 			}
 			.address-wrapper {
 				position: relative;
+				@media(max-width: 768px) {
+					margin-bottom: 100px;
+					&.space {
+						margin-bottom: 0;
+					}
+
+				}
+				@media(max-width: 576px) {
+					margin-bottom: 100px;
+				}
 				.adderess-icon {
 					width: 65px;
 					height: 65px;
@@ -204,6 +226,9 @@
 
 			}
 			form {
+				@media(max-width: 768px) {
+					width: 100%;
+				}
 				width: 50%;
 				display: inline-block;
 				.name-wrapper, .email-wrapper {

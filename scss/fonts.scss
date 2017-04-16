@@ -1,20 +1,38 @@
-
 /*
 @font-face {
-    font-family: 'opensans';
-    src: local('opensans'),
-    url('/../fonts/opensans') format('truetype'),
-    font-weight: normal;
-    font-style: normal;
-    font-strecht: normal;
-    unicode-range: "U+0-10FFFF";
+    font-family: 'opensans-bold';
+    src: local('../Fonts/OpenSans/OpenSans-Bold_0.ttf'),
+    url('../Fonts/OpenSans/OpenSans-Bold_0.ttf') format('truetype'),
 }
+
+@font-face {
+    font-family: 'opensans-bold-italic';
+    src: local('../Fonts/OpenSans/OpenSans-BoldItalic_0.ttf'),
+    url('../Fonts/OpenSans/OpenSans-BoldItalic_0.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'opensans-extra-bold';
+    src: local('../Fonts/OpenSans/OpenSans-ExtraBold_0.ttf'),
+    url('../Fonts/OpenSans/OpenSans-ExtraBold_0.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'opensans-semi-bold';
+    src: local('../Fonts/OpenSans/OpenSans-Semibold_0.ttf'),
+    url('../Fonts/OpenSans/OpenSans-Semibold_0.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'opensans-regular';
+    src: local('../Fonts/OpenSans/OpenSans-Regular_0.ttf'),
+    url('../Fonts/OpenSans/OpenSans-Regular_0.ttf') format('truetype'),
+}
+
+
+
 @font-face {
     font-family: 'pacifico';
     src: local('pacifico'),
-    url('icomoon-webfont.ttf') format('truetype'),
-    font-weight: normal;
-    font-style: normal;
-    font-strecht: normal;
-    unicode-range: "U+0-10FFFF";
+    url('../Fonts/pacifico/Pacifico.ttf') format('truetype'),
 }*/
