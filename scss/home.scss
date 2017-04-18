@@ -78,7 +78,7 @@
 		@media (max-width: 768px) {
 			border-bottom: none;
 		}
-		
+
 		.section-text {
 			font-size: 1.8rem;
 			text-align: center;
@@ -120,6 +120,9 @@
 			overflow: hidden;
 			border-radius: 5px 5px 0 0;
 			display: inline-block;
+			@media(max-width: 576px) {
+				width: 100%;
+			}
 			img {
 				width: 100%;
 				height: auto;
@@ -130,6 +133,9 @@
 			border: solid 1px $secondary1;
 			width: 320px;
 			margin: 0 auto;
+			@media(max-width: 576px) {
+				width: 100%;
+			}
 		}
 		.article-title {
 			font-size: 2rem;
@@ -413,8 +419,17 @@
 	.footer {
 		background-color: $main3;
 		padding-top: 70px;
-		.col-xs-4 {
-			padding: 0;
+		.address-content, .mail-content, .phone-content {
+			display: inline-block;
+		}
+		.address-content {
+			width: 23%;
+		}
+		.mail-content {
+			width: 42%;
+		}
+		.phone-content {
+			width: 32%;
 		}
 		.logo {
 			margin-bottom: 30px;
@@ -466,7 +481,7 @@
 		.address, .mail, .phone {
 			margin-bottom: 10px;
 			color: $white;
-			font-size: 12px;
+			font-size: 11px;
 			a {
 				color: $white;
 			}
