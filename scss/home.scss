@@ -413,7 +413,9 @@
 	.footer {
 		background-color: $main3;
 		padding-top: 70px;
-
+		.col-xs-4 {
+			padding: 0;
+		}
 		.logo {
 			margin-bottom: 30px;
 			@media (max-width: 768px) {
@@ -464,6 +466,7 @@
 		.address, .mail, .phone {
 			margin-bottom: 10px;
 			color: $white;
+			font-size: 12px;
 			a {
 				color: $white;
 			}
