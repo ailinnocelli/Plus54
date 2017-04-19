@@ -414,22 +414,32 @@
 		.text {
 			margin-bottom: 20px;
 		}
-
 	}
 	.footer {
 		background-color: $main3;
 		padding-top: 70px;
+		@media(max-width: 576px) {
+			padding-top: 40px;
+		}
+			.address-content {
+				@media(max-width: 576px) {
+					width: 23%;
+				}
+			}
+			.mail-content {
+				width: 100%;
+				@media(max-width: 576px) {
+					width: 42%;
+				}
+			}
+			.phone-content {
+				width: 100%;
+				@media(max-width: 576px) {
+					width: 32%;
+				}
+			}
 		.address-content, .mail-content, .phone-content {
 			display: inline-block;
-		}
-		.address-content {
-			width: 23%;
-		}
-		.mail-content {
-			width: 42%;
-		}
-		.phone-content {
-			width: 32%;
 		}
 		.logo {
 			margin-bottom: 30px;
@@ -446,13 +456,21 @@
 			text-transform: uppercase;
 			color: $secondary2;
 			margin-bottom: 30px;
-
 		}
 		.copyright {
 			padding-top: 40px;
 			height: 90px;
 			width: 100%;
 			background-color: $main2;
+			@media(max-width: 576px) {
+				padding-top: 20px;
+			}
+			.text {
+				@media(max-width: 576px) {	
+					font-size: 14px;
+					width: 57%;
+				}
+			}
 			.social-wrapper {
 				float: right;
 				.circle {
@@ -511,7 +529,6 @@
 			color: $white;
 			padding: 10px 15px 10px 0;
 			border-radius: 5px;
-
 			input {
 				border-radius: 5px 0 0 5px;
 				text-align: center;
@@ -522,24 +539,48 @@
 				margin-right: 10px;
 				padding-left: 15px;
 				width: 150px;
+				@media(max-width: 576px) {
+					width: 153px;
+				}
 			}
-
 		}
-		@media (max-width: 768px) {
-			.title {
+		.suscribe {
+			width: 100%;
+			height: auto;
+			@media(max-width: 576px) {
+				width: 100%;
+				text-align: center;
+				margin-bottom: 10px;
+			}
+		}
+		.title {
+			@media (max-width: 768px) {
 				width: 28%;
 				display: inline-block;
 				vertical-align: top;
 			}
-			.text {
+			@media(max-width: 576px) {
+				width: 100%;
+			}
+		}
+		.text {
+			@media (max-width: 768px) {
 				width: 28%;
 				display: inline-block;
 			}
-			.newsletter {
+			@media(max-width: 576px) {
+				width: 100%;
+			}
+		}
+		.newsletter {
+			@media (max-width: 768px) {
 				width: 40%;
 				display: inline-block;
 				padding: 0px 15px 0px 0;
-				vertical-align: text-bottom;
+				vertical-align: text-bottom;	
+			}
+			@media(max-width: 576px) {
+				width: 57%;
 			}
 		}
 	}
