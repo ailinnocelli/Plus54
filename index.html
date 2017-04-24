@@ -15,15 +15,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12">
-						
-
-
 						<section class="navegation-bar">
 							<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
 								<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 									<span class="navbar-toggler-icon"></span>
 								</button>
-								<a class="navbar-brand" href="#"><img src="img/logo-white.png" alt=""></a>
+								<a class="navbar-brand" href="#"><img src="img/Webworld-logohome.png" alt=""></a>
 								<div class="collapse navbar-collapse" id="navbarNav">
 									<ul class="navbar-nav">
 										<li class="nav-item active">
@@ -40,15 +37,14 @@
 							</nav>
 						</section>
 
-
 					</div>
 				</div>
 			</div>
 			<!-- acá va la galería de imágenes rotator -->
 			<div class="row">
 				<div class="col-xs-12">
-					<div class="carouse-rotator">
-						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<div class="carouse-rotator"><!-- class="carousel slide"     data-ride="carousel"  -->
+						<div id="carousel-example-generic" class="" >
 							<!-- Indicators -->
 							<ol class="carousel-indicators">
 								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -58,21 +54,27 @@
 							<!-- Wrapper for slides -->
 							<div class="carousel-inner">
 								<div class="item active">
-									<img src="img/backgroundbig.png" alt="">
+									<img src="img/background-home.png" alt="">
 									<div class="carousel-caption">
-										<h3>Caption Text</h3>
+										<h1>A killed team of designers working just for you!</h1>
+										<h3>Proin facilisis aliquam nunc quis varius. Pellentesque non mauris urna. </h3>
+										<button class="carousel-button">Show more</button>
 									</div>
 								</div>
 								<div class="item">
 									<img src="img/background2.jpg" alt="">
 									<div class="carousel-caption">
-										<h3>Caption Text</h3>
+										<h1>A killed team of designers working just for you!</h1>
+										<h3>Proin facilisis aliquam nunc quis varius. Pellentesque non mauris urna. </h3>
+										<button class="carousel-button">Show more</button>
 									</div>
 								</div>
 								<div class="item">
 									<img src="img/backgroundnew.jpg" alt="">
 									<div class="carousel-caption">
-										<h3>Caption Text</h3>
+										<h1>A killed team of designers working just for you!</h1>
+										<h3>Proin facilisis aliquam nunc quis varius. Pellentesque non mauris urna. </h3>
+										<button class="carousel-button">Show more</button>
 									</div>
 								</div>
 							</div>
@@ -197,17 +199,16 @@
 							</div>
 							<div class="col-xs-3 hidden-sm hidden-xs">
 								<article class="project-item">
-									<figure>
-										<img src="img/house.png" alt="">
+									<figure  data-toggle="modal" class="img-modal" data-target="#exampleModal">
+										<img data-src-full="img/muelle-grande.png" src="img/muelle.png" alt="">
 									</figure>
 									<h3 class="title">Lorem ipsum</h3>
 									<span class="text">consectetur</span>
 								</article>
-								
 							</div>
 							<div class="col-xs-3 hidden-sm hidden-xs">
 								<article class="project-item">
-									<figure>
+									<figure class="img-modal" >
 										<img src="img/house2.png" alt="">
 									</figure>
 									<h3 class="title">Lorem ipsum</h3>
@@ -216,7 +217,7 @@
 							</div>
 							<div class="col-xs-3 hidden-sm hidden-xs">
 								<article class="project-item">
-									<figure>
+									<figure class="img-modal" >
 										<img src="img/house3.png" alt="">
 									</figure>
 									<h3 class="title">Lorem ipsum</h3>
@@ -231,6 +232,18 @@
 									<h3 class="title">Lorem ipsum</h3>
 									<span class="text">consectetur</span>
 								</article>
+							</div>
+						</div>
+						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-body">
+										<img id="imgModal" src="img/house.png" alt="">
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									</div>
+								</div>
 							</div>
 						</div>
 					</section>
@@ -266,7 +279,6 @@
 					<div class="col-md-3 col-xs-12">
 						<h3 class="title hidden-xs hidden-sm">Contact</h3>
 						<p class="text hidden-xs hidden-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-						
 						<div class="address-content">
 							<div class="address">
 								<figure class="media-wrapper">
@@ -336,7 +348,7 @@
 			</div>
 		</footer>
 	</div>
-
+	
 	<script
 	src="https://code.jquery.com/jquery-3.2.1.min.js"
 	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -345,6 +357,6 @@
 
 	<!-- bootstrap -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
-	<script type="text/javascript" src="js/detail.js"></script>
+<!--  <script type="text/javascript" src="js/detail.js"></script>-->
 </body>
 </html>
