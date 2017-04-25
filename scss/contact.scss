@@ -2,7 +2,6 @@
 @import "fonts.scss";
 
 .page-container {
-	margin-bottom: 1000px; // Sacar esta línea, es sólo para ver el footer
 	.container {
 		@media(min-width:1200px) {
 			width: 1054px;
@@ -21,6 +20,7 @@
 			background-repeat: no-repeat;
 			background-position: center;
 			position: relative;
+			margin-bottom: 0;
 			@media(max-width: 576px) {
 				height: 240px;
 				padding-top: 0;
@@ -144,7 +144,7 @@
 				}
 				&::before {
 					content:"";
-					width: 45%;
+					width: 47%;
 					height: 1px;
 					background-color: $secondary1;
 					position: absolute;
@@ -156,7 +156,7 @@
 				}
 				&::after {
 					content:"";
-					width: 40%;
+					width: 47%;
 					height: 1px;
 					background-color: $secondary1;
 					position: absolute;
@@ -261,7 +261,7 @@
 				
 				&::before {
 					content:"";
-					width: 45%;
+					width: 47%;
 					height: 1px;
 					background-color: $secondary1;
 					position: absolute;
@@ -270,7 +270,7 @@
 				}
 				&::after {
 					content:"";
-					width: 40%;
+					width: 47%;
 					height: 1px;
 					background-color: $secondary1;
 					position: absolute;
